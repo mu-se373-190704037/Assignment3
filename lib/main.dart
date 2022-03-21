@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
 
-        title: Text("se373homework"),
+        title: Text("se373homework1"),
       ),
       body: Center(
 
