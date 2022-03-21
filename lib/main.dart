@@ -8,15 +8,17 @@ class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
 
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'homework1',
-      theme: ThemeData(
+        title: 'homework1',
 
-        primarySwatch: Colors.purple,
-      ),
+        theme: ThemeData(
+        primarySwatch:Colors.purple
+        ),
       home: const MyHomePage(title: 'se373homework'),
+
     );
   }
 }
@@ -48,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
 
-        title: Text("se373homework1"),
+        title: Text("se373homework"),
       ),
       body: Center(
 
